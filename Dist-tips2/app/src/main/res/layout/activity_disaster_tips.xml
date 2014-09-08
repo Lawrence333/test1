@@ -1,0 +1,73 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisasterTips"
+    tools:ignore="MergeRootFrame"
+    android:background="#fffffc1f" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/distintro"
+        android:id="@+id/distintro"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="50dp"
+        android:textSize="30sp"
+        android:textIsSelectable="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/typhbtn"
+        android:id="@+id/typhbtn"
+        android:layout_gravity="center"
+        android:layout_marginBottom="75dp"
+        android:focusableInTouchMode="true"
+        android:singleLine="false"
+        android:visibility="visible"
+        android:capitalize="none"
+        android:clickable="false"
+        android:enabled="true"
+        android:onClick="typhdist"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/erthbtn"
+        android:id="@+id/erthbtn"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:onClick="earthdist"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ldslbtn"
+        android:id="@+id/ldslbtn"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="180dp"
+        android:onClick="landdist"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tsnbtn"
+        android:id="@+id/tsnbtn"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="120dp"
+        android:onClick="tsudist"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mnmbtn"
+        android:id="@+id/mnmbtn"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="60dp"
+        android:onClick="mnmdist"/>
+
+</FrameLayout>

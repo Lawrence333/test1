@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lawrence.dist_tips" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".DisasterTips"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".disptinfo"
+            android:label="@string/title_activity_disptinfo"
+            android:parentActivityName=".DisasterTips" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.lawrence.DisasterTips" />
+        </activity>
+        <activity
+            android:name=".disttsuinfo"
+            android:label="@string/title_activity_disttsuinfo"
+            android:parentActivityName=".DisasterTips" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.lawrence.DisasterTips" />
+        </activity>
+        <activity
+            android:name=".disterinfo"
+            android:label="@string/title_activity_disterinfo"
+            android:parentActivityName=".DisasterTips" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.lawrence.DisasterTips" />
+        </activity>
+        <activity
+            android:name=".distmnminfo"
+            android:label="@string/title_activity_distmnminfo" >
+        </activity>
+        <activity
+            android:name=".distlndinfo"
+            android:label="@string/title_activity_distlndinfo" >
+        </activity>
+    </application>
+
+</manifest>

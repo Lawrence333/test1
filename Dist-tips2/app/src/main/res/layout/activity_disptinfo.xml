@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lawrence.dist_tips.disptinfo"
+    tools:ignore="MergeRootFrame"
+    android:background="#fffffc3f">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/p1"
+        android:id="@+id/p1"
+        android:layout_gravity="center" />
+</FrameLayout>
